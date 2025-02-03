@@ -431,16 +431,13 @@ height: 120px;
 }
 
 .footer {
-    max-width: 1440px;
     background-color: #2e2f42;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 100px 0;
 }
 
 .items-foot { 
     display: flex;
     align-items: baseline;
-    flex-direction: row;
   }
 
 .footer-title {
@@ -454,7 +451,6 @@ height: 120px;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    width: 264px;
     margin-bottom: 16px;
 }
 .footer-title-color {
@@ -469,10 +465,7 @@ height: 120px;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    width: 208px;
-    height: 80px;
+    margin-right: 120px;
 }
 
 .footer-social {
@@ -488,7 +481,6 @@ height: 120px;
 .contact-list-footer {
     display: flex;
     gap: 16px;
-    width: 208px;
 }
 
 .item-fill-footer {

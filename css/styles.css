@@ -431,13 +431,16 @@ height: 120px;
 }
 
 .footer {
-    padding: 100px 0;
+    max-width: 1440px;
     background-color: #2e2f42;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .items-foot { 
     display: flex;
     align-items: baseline;
+    flex-direction: row;
   }
 
 .footer-title {
@@ -450,14 +453,15 @@ height: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    width: 264px;
+    margin-bottom: 16px;
 }
 .footer-title-color {
     color: #f4f4fd;
 }
 .footer-text {
-    display: flex;
     max-width: 264px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

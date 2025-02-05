@@ -364,11 +364,13 @@ color: #434455;
     justify-content: center;
     gap: 24px;
     flex-direction: row;
+    padding: 10px;
 }
 
 .icons-spec {
     width: 40px;
     height: 40px;
+    margin: 0 auto;
 }
 
 .icon-spec {

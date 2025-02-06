@@ -309,6 +309,7 @@ color: #434455;
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #f4f4fd;
+    margin: 0 auto;
 }
 .team-title {
     font-weight: 700;
@@ -322,8 +323,10 @@ color: #434455;
 }
 .team-list {
     display: flex;
-    flex-wrap: nowrap;
     gap: 24px;
+    width: 264px;
+    height: 428px;
+    justify-content: space-around;
 }
 .team-member {
     background-color: #fff;
@@ -356,6 +359,7 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .icons-list {
@@ -363,14 +367,12 @@ color: #434455;
     align-items: center;
     justify-content: center;
     gap: 24px;
-    flex-direction: row;
-    padding: 10px;
+    margin: auto;
 }
 
 .icons-spec {
     width: 40px;
     height: 40px;
-    margin: 0 auto;
 }
 
 .icon-spec {
